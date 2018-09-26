@@ -1,0 +1,12 @@
+// Requered for Firefox, Chrome, Opera and Edge
+
+{
+    "manifest_version": 2,
+    "author": "jbiset",
+    "name": "demo",
+    "version": "1.0",
+    "content_scripts": [{
+        "matches": ["*://*/*"],
+        "js": ["content_scripts/main.js"]
+    }]
+}
